@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Contact Form</title>
 </head>
 <style>
     body {
@@ -34,7 +34,7 @@
     #left img {
         max-width: 80%;
         display: block;
-        margin-top: 10%;
+        margin-top: 20%;
     }
     #right{
         flex: 2;
@@ -69,17 +69,39 @@
 <body>
     <div id="container">
         <div id="left">
-            <img src="C:\Users\user\Downloads\IMG-20231231-WA0014.jpg">
-            <p style="left: 10%; position: absolute;">I am a market strategist with background in finance</p>
+            <img src="C:\Users\user\Downloads\12083363_Wavy_Bus-19_Single-03.jpg"> <br>
+            <a href="homepage.html" class="button" style="margin-right: 25%;"> Home Page</a> 
         </div>
         <div id="divider"></div>
         <div id="right">
-            <a href="about.html" class="button"> About Me </a> <br>
-            <a href="contact_form.html" class="button"> Contact Me</a> <br>
-
+           <form style="position: absolute;">
+            <label for="first name"> First name</label>
+            <br>
+            <br>
+            <input type="text"name="First name" placeholder="First Name" style="border-radius:20px; line-height: 1.5;">
+            <br>
+            <br>
+            <br>
+            <label for="last name"> Last name</label>
+            <br>
+            <br>
+            <input type="text"name="Last name" placeholder="Last Name" style="border-radius:20px;">
+            <br>
+            <br>
+            <br>
+            <label for="email"> Email</label>
+            <br>
+            <br>
+            <input type="email"name="Email" placeholder="Email Address" style="border-radius:20px;">
+            <br>
+            <br>
+            <br>
+            <label for="message"> Message</label>
+            <br>
+            <br>
+            <input type="text"name="Message" placeholder="Write Message" style="border-radius:20px;">
+           </form>
         </div>
     </div>
-    
-    
 </body>
 </html>

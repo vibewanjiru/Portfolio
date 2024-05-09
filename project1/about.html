@@ -1,29 +1,135 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 </head>
-<body><!DOCTYPE html>
+<body>
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(40, 103, 192);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #container {
+        display: flex;
+        padding: 20px;
+        align-items: stretch;
+        max-width: 1000px;
+        width: 100%;
+        height: 100%;
+    }
+    #left {
+        flex: 3;
+        text-align: center;
+        position: relative;
+        color: white;
+    }
+    #left img {
+        max-width: 80%;
+        display: block;
+        margin-top: 20%;
+    }
+    #right{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        height: 1100px;
+        
+    }
+    #divider {
+        border-left: 5px solid black;
+        margin-top: 10%;
+        max-height: 90%;
+        border-radius: 45px;
+        
+    }
+    .button {
+        padding: 10px 20px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 15px;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        transition: background-color 0.3s ease;
+    }
+    .button :hover {
+        background-color: rgba(0, 128, 0, 0.705);
+        color: white;
+    }
+    </style>
+    <div id="container">
+        <div id="left">
+            <img src="C:\Users\user\Downloads\81387302_9894285.jpg"> <br>
+            <a href="contact_form.html" class="button" style="margin-right: 25%;"> Contact me</a> 
+        </div>
+        <div id="divider"></div>
+        <div id="right">
+            <h1>
+                About
+            </h1>
+            <p style="margin-left: 10%;">
+                My name is wanjiru wainaina.I am 24 years old.I am a current graduate from strathmore University.
+                I live in Kahahwa Sukari.I am a first born and the only girl in a family of two boys.
+                I did a double major of Markerting,Entrepreneurship and Finance.
+            </p> 
+            <h2>
+                My Interests
+            </h2>
+             <p style="margin-left: 10%;">
+                Funny thing about my interests is that ,it keeps changing.Currently i am interested in the following things;
+                <li  style="margin-left: 10%;">
+                    Video games.
+                </li>
+                <li  style="margin-left: 10%;">
+                    Software development and anything dealing with Tech.
+                </li>
+                <li  style="margin-left: 10%;">
+                    Travelling.
+                </li>
+                <li  style="margin-left: 10%;">
+                    Cooking.
+                </li>
+                <p style="margin-left: 10%;">These are just but afew of the things that i am current obessing over.</p>
+            </p>
+            <h2>
+                My Skills
+            </h2>
+             <p style="margin-left: 10%;">
+               My skills are:
+               <li style="margin-left: 10%;">
+                Problem-Solving: I have the capacity to analyze complex issues, 
+                devise innovative solutions, and adapt to evolving challenges in a fast-paced environment.
+               </li>
+               <li  style="margin-left: 10%;">
+                Communication: I have strong communication skills to articulate ideas, collaborate with colleagues, 
+                and present findings or proposals persuasively.
+               </li>
+               <li  style="margin-left: 10%;">
+                Adaptability: Flexibility to embrace change, learn new technologies or methodologies, and thrive in dynamic work environments.
+               </li>
+               <li  style="margin-left: 10%;">
+                Critical Thinking: I have the capacity to evaluate information objectively, 
+                identify patterns, and make well-informed decisions based on logic and evidence.
+               </li>
+               <li  style="margin-left: 10%;">
+                Creativity: I have the ability to think outside the box, generate innovative ideas, 
+                and contribute fresh perspectives to problem-solving and product development.
+               </li>
+            </p>
 
-    <a href="homepage.html">Back to Home Page</a>
-    <h1>
-        About
-    </h1>
-        My name is wanjiru wainaina.I am 24 years old.I am a current graduate from strathmore University.
-        I live in Kahahwa Sukari.I am a first born and the only girl in a family of two boys.
-        I did a double major of Markerting,Entrepreneurship and Finance.
-    <h2>
-        My Interests
-    </h2>
-     <p>
-        Funny thing about my interests is that ,it keeps changing.Currently i am interested in the following things;
-        1.Video games.
-        2.Software development and anything dealing with Tech.
-        3.Travelling
-        4.Cooking.
-        These are just but afew of the things that i am current obessing over.
-
-    </p>
+        </div>
+    </div>
 </body>
 </html>
